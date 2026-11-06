@@ -1,0 +1,9 @@
+[
+  {
+    "modid": "velocityclient",
+    "name": "Velocity Client",
+    "description": "HUD and QoL client for Minecraft 1.8.9.",
+    "version": "0.1.0",
+    "mcversion": "1.8.9"
+  }
+]
