@@ -1,6 +1,7 @@
 package com.velocityclient;
 
 import com.velocityclient.hud.HudRenderer;
+import com.velocityclient.module.ModuleManager;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -10,6 +11,7 @@ public class VelocityClient {
     public static final String MODID = "velocityclient";
     public static final String NAME = "Velocity Client";
     public static final String VERSION = "0.1.0";
+    public static final ModuleManager MODULES = new ModuleManager();
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
